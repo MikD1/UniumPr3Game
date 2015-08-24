@@ -1,0 +1,23 @@
+﻿using System;
+
+namespace UniumPr3Game.Lesson2.Characters
+{
+    class Warrior
+    {
+        public int HP = 110;
+        public int Strength = 20;
+
+        public void Blow(Warrior target)
+        {
+            target.HP -= Strength;
+        }
+        public void Blow(Mage target)
+        {
+            target.HP -= Strength;
+        }
+        public void Blow(Priest target)
+        {
+            target.HP -= Strength;
+        }
+    }
+}

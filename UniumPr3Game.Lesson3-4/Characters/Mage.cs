@@ -7,6 +7,14 @@ namespace UniumPr3Game.Characters
         public int HP = 90;
         public int Mana = 30;
 
+        public bool IsDead
+        {
+            get
+            {
+                return HP <= 0;
+            }
+        }
+
         public void Fireball(Warrior target)
         {
             target.HP -= Mana;

@@ -7,6 +7,14 @@ namespace UniumPr3Game.Characters
         public int HP = 110;
         public int Strength = 20;
 
+        public bool IsDead
+        {
+            get
+            {
+                return HP <= 0;
+            }
+        }
+
         public void Blow(Warrior target)
         {
             target.HP -= Strength;

@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{F355F720-6718-4419-9F43-DEE7A09DBC02}</ProjectGuid>
+    <ProjectGuid>{15C90BA5-4BD4-4766-8D94-C447C8046D00}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>UniumPr3Game</RootNamespace>
-    <AssemblyName>UniumPr3Game.Lesson2</AssemblyName>
+    <AssemblyName>UniumPr3Game.Lesson3-4</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -44,6 +44,7 @@
     <Compile Include="Characters\Mage.cs" />
     <Compile Include="Characters\Priest.cs" />
     <Compile Include="Characters\Warrior.cs" />
+    <Compile Include="Game.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

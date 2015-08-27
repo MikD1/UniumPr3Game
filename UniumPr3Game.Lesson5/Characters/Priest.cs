@@ -55,7 +55,7 @@ namespace UniumPr3Game.Characters
             target.HP += Mana;
         }
 
-        public int _HP;
-        public const int _maxHP = 90;
+        private int _HP;
+        private const int _maxHP = 90;
     }
 }

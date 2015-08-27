@@ -55,7 +55,7 @@ namespace UniumPr3Game.Characters
             target.HP -= Strength;
         }
 
-        public int _HP;
-        public const int _maxHP = 110;
+        private int _HP;
+        private const int _maxHP = 110;
     }
 }

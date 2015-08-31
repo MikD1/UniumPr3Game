@@ -17,6 +17,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UniumPr3Game.Lesson10", "Un
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UniumPr3Game.Lesson11", "UniumPr3Game.Lesson11\UniumPr3Game.Lesson11.csproj", "{38AEBE7F-7E90-4DCD-94A2-73D001B9DADE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UniumPr3Game.Lesson12.Core", "UniumPr3Game.Lesson12.Core\UniumPr3Game.Lesson12.Core.csproj", "{E0CB251D-7224-4E0F-A069-621484CA6F12}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UniumPr3Game.Lesson12.Client", "UniumPr3Game.Lesson12.Client\UniumPr3Game.Lesson12.Client.csproj", "{7E14C6C2-5A56-483C-9DDD-DE48AB679B67}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +55,14 @@ Global
 		{38AEBE7F-7E90-4DCD-94A2-73D001B9DADE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{38AEBE7F-7E90-4DCD-94A2-73D001B9DADE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{38AEBE7F-7E90-4DCD-94A2-73D001B9DADE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0CB251D-7224-4E0F-A069-621484CA6F12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0CB251D-7224-4E0F-A069-621484CA6F12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0CB251D-7224-4E0F-A069-621484CA6F12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0CB251D-7224-4E0F-A069-621484CA6F12}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E14C6C2-5A56-483C-9DDD-DE48AB679B67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E14C6C2-5A56-483C-9DDD-DE48AB679B67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E14C6C2-5A56-483C-9DDD-DE48AB679B67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E14C6C2-5A56-483C-9DDD-DE48AB679B67}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
